@@ -9,7 +9,7 @@ app.use(cors());
 // connect to mlab database
 // make sure to replace my db string & creds with your own
 mongoose.connect(
-  "mongodb://gmpravin79:demo@cluster0-shard-00-00-jalvu.mongodb.net:27017,cluster0-shard-00-01-jalvu.mongodb.net:27017,cluster0-shard-00-02-jalvu.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority",
+  //your mongodb url,
   { useNewUrlParser: true, useUnifiedTopology: true }
 );
 
