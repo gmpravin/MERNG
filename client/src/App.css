@@ -1,0 +1,43 @@
+.App {
+  background-color: cornflowerblue;
+  display: flex;
+  /* align-items: center; */
+}
+
+.p1 {
+  flex: 1;
+}
+.p2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+input {
+  width: 300px;
+  padding: 10px;
+  margin: 5px;
+}
+.p3 {
+  flex: 1;
+}
+
+select {
+  width: 250px;
+}
+
+button {
+  width: 250px;
+}
+
+.align {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  padding: 0%;
+  margin: 0%;
+}

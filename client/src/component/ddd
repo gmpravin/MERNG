@@ -1,0 +1,17 @@
+{
+ 
+}
+
+//   useEffect(() => {
+//     return () => {
+//       perBookDetail({
+//         option: ({ data }) => {
+//           return {
+//             variables: {
+//               id: data
+//             }
+//           };
+//         }
+//       });
+//     };
+//   }, [perBookDetail]);
